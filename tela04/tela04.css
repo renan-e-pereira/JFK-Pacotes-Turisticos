@@ -1,0 +1,56 @@
+form {
+    border: 3px solid #f1f1f1;
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+    margin: 5%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 15px 0 30px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 15px 0 30px 0;
+}
+
+
+input[type="text"], input[type="email"] {
+    padding: 12px 12px;
+    margin: 5px 0 20px;
+    width: 94%;
+}
+
+input[name="numero"],label[name="cep"] {
+    padding: 12px 12px;
+    width: 30%;
+}
+
+input[name="complemento"],input[name="cep"]{
+    padding: 12px 12px;
+    width: 53.5%;
+    margin-left: 4%;
+}
+
+input[name="cep"]{
+    margin-left: 30%;
+}
+
+.container > label[name="cep"] {
+    text-align: right;
+}
+
+
+@media screen and (max-width: 950px){
+    form {
+        width: 400px;
+    }
+}

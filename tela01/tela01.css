@@ -1,0 +1,41 @@
+.header h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.header h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 2% 10% 5% 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;   
+}
+
+.box {
+    margin: 10px 2% 50px 2%;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.box > h2 {
+    margin: 5px 0 10px 0;
+}
+
+.button {
+    align-self: center;
+    margin-top: 5px;
+}

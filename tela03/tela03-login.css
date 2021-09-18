@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: Arial;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 25px;
+    cursor: pointer;
+    width: 40%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 50%;
+    margin-left: 30%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+    text-align: left;
+    font-size: .9em;
+}
+
+@media screen and (max-width:300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+}
