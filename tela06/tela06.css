@@ -1,0 +1,29 @@
+body {
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 550px;
+    height: 320px;
+    text-align: center;
+}
+
+.head h1 {
+    margin-bottom: 5%;
+}
+
+.head h2 {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.container {
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 950px){
+    body {
+        width: 400px;
+    }
+}
